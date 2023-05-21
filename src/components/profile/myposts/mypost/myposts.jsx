@@ -5,7 +5,7 @@ const Mypost = () =>{
     return(
         <div>
           <Post message="hahahahhahahaha" like="32"/>
-          <Post message="you are sou bad" like="23"/>f
+          <Post message="you are sou bad" like="23"/>
         </div>
     )       
 }

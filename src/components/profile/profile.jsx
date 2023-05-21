@@ -3,7 +3,7 @@ import Mypost from './myposts/mypost/myposts';
 
 const Profail = () =>{
     return(
-        <main className={style.main}>
+        <main>
           <div className={style.imgbg}>
             <img src={require('../../img/mainbg.png')} />
           </div>
