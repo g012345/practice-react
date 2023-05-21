@@ -1,5 +1,5 @@
 import style from './profile.module.css';
-import Mypost from './myposts/post/myposts';
+import Mypost from './myposts/mypost/myposts';
 
 const Profail = () =>{
     return(
