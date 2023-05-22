@@ -1,14 +1,15 @@
 import styles from './asid.module.css';
-
+import profail from "../profile/profile"
+import Dialogs from '../dialogs/dialogs';
 
 const Asid = () =>{
     return(
         <asid className={styles.asid}>
           <div className={styles.item}>
-            <a>pro</a>
+            <a href='/profail'>pro</a>
           </div>
           <div className={styles.item}>
-            <a>mes</a>
+            <a href='dialogs'>mes</a>
           </div>
           <div className={styles.item}>
             <a>new</a>
@@ -22,4 +23,6 @@ const Asid = () =>{
         </asid>
     )
 }
+
+
 export default Asid;
