@@ -2,14 +2,15 @@ import styles from './asid.module.css';
 import profail from "../profile/profile"
 import Dialogs from '../dialogs/dialogs';
 
+
 const Asid = () =>{
     return(
         <asid className={styles.asid}>
           <div className={styles.item}>
-            <a href='/profail'>pro</a>
+            <a className={styles.white } href='/profail'>pro</a>
           </div>
           <div className={styles.item}>
-            <a href='dialogs'>mes</a>
+            <a className={styles.white} href='dialogs'>mes</a>
           </div>
           <div className={styles.item}>
             <a>new</a>

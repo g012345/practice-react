@@ -7,18 +7,19 @@ import Dialogs from './components/dialogs/dialogs';
 import { BrowserRouter, Routes , Route } from 'react-router-dom';
 const App = () => {
   return (
-    <BrowserRouter>
       <div className="wrapper">
         <Header />
         <Asid />
         <div className="main">
+        <BrowserRouter>
         <Routes >
           <Route path="/dialogs"Component={Dialogs}/>
           <Route path="/profail"Component={Profail}/>
         </Routes>  
+        </BrowserRouter>
         </div>
       </div>
-    </BrowserRouter>
+    
     );
 }
 export default App;
