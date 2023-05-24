@@ -6,7 +6,6 @@ import Profail from './components/profile/profile';
 import Dialogs from './components/dialogs/dialogs';
 import {Routes , Route } from 'react-router-dom';
 
-import Vlad from './components/dialogs/message/vlad';
 const App = () => {
   return (
       <div className="wrapper">
@@ -17,7 +16,6 @@ const App = () => {
           <Route path="/"Component={Profail}/>
           <Route path="/dialogs"Component={Dialogs}/>
           <Route path="/profail"Component={Profail}/>
-          <Route path="/dialogs/vlad"Component={Vlad}/>
         </Routes>  
         </div>
       </div>

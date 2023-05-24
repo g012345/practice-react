@@ -1,6 +1,7 @@
 import style from "./dialogs.module.css"
 import Dialogsitem from "./dialogs_item/dialogsitem";
 import Never from "./message/never";
+import Vlad from "./message/vlad";
 import {Routes , Route } from 'react-router-dom';
 const Dialogs = () =>{
     return(
@@ -10,6 +11,7 @@ const Dialogs = () =>{
             <div>
             <Routes >
                 <Route path="/"Component={Never}/>
+                <Route path="/dialogs/vlad"Component={Vlad}/>
             </Routes>  
 
             </div>
