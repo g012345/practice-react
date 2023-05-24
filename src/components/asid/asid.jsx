@@ -1,16 +1,14 @@
 import styles from './asid.module.css';
-import profail from "../profile/profile"
-import Dialogs from '../dialogs/dialogs';
-
+import { NavLink } from "react-router-dom";
 
 const Asid = () =>{
     return(
         <asid className={styles.asid}>
           <div className={styles.item}>
-            <a className={styles.white } href='/profail'>pro</a>
+            <NavLink className={styles.white } to='/profail'>pro</NavLink>
           </div>
           <div className={styles.item}>
-            <a className={styles.white} href='dialogs'>mes</a>
+            <NavLink className={styles.white} to='/dialogs'>mes</NavLink>
           </div>
           <div className={styles.item}>
             <a>new</a>

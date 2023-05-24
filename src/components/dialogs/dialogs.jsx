@@ -1,11 +1,18 @@
 import style from "./dialogs.module.css"
-
-
-const Dialogs = (props) =>{
+import Dialogsitem from "./dialogs_item/dialogsitem";
+import Never from "./message/never";
+import {Routes , Route } from 'react-router-dom';
+const Dialogs = () =>{
     return(
         <div className={style.main}>
-            dial
+            
+            <div className="namepers"><Dialogsitem /></div>
+            <div>
+            <Routes >
+                <Route path="/"Component={Never}/>
+            </Routes>  
 
+            </div>
         </div>
     )
 }
