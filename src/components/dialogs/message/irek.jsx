@@ -1,5 +1,5 @@
 import style from "./message.module.css"
-import Dialogs from "../dialogs"
+import Dialogs from "../dialogs";
 const Message = (proper) =>{
     return(
         <div className={style.message}>
@@ -7,7 +7,8 @@ const Message = (proper) =>{
         </div>
     )
 }
-const Never = () =>{
+
+const Irek = () =>{
     let messagedata = [
         {info: "1s33"}, 
         {info: "d"}, 
@@ -19,9 +20,10 @@ const Never = () =>{
                 <Message  info={messagedata[0].info}/>
                 <Message info={messagedata[1].info}/>
                 <Message info={messagedata[2].info}/>
+                
             </div>  
         </div>
     )   
 }
 
-export default Never;
+export default Irek;
