@@ -1,5 +1,6 @@
 import style from "./message.module.css"
 import Dialogs from "../dialogs";
+import messagedata from "../../../server/data/dialogs/vlad";
 const Message = (proper) =>{
     return(
         <div className={style.message}>
@@ -7,18 +8,13 @@ const Message = (proper) =>{
         </div>
     )
 }
-const Vlad = () =>{
-    let messagedata = [
-        {info: "1s33"}, 
-        {info: "d"}, 
-        {info: "a333"},]
+const Vlad = () =>{ 
+        let messageelement = messagedata.map(message => <Message  info={message.info}/> )
     return(
         <div className={style.messages}>
             <Dialogs />
             <div>
-                <Message  info={messagedata[0].info}/>
-                <Message info={messagedata[1].info}/>
-                <Message info={messagedata[2].info}/>
+                {messageelement}
                 
             </div>  
         </div>

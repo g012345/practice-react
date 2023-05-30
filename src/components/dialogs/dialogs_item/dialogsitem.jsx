@@ -12,18 +12,18 @@ const Dialogsprem = (props) =>{
 
 
 const dialogsitem = () =>{
+  
     let dialogsdata = [
         {name: "never",id: "never"}, 
         {name: "vlad",id: "vlad"},
         {name: "siva",id: "siva"},
         {name: "irek",id: "irek"}]
+    let  dialogselement = dialogsdata.map( dialog => <Dialogsprem name={dialog.name} id={dialog.id}/>)
+
     return(
         
         <div className="dialogs">
-            <Dialogsprem name={dialogsdata[0].name} id={dialogsdata[0].id}/>
-            <Dialogsprem name={dialogsdata[1].name} id={dialogsdata[1].id}/>
-            <Dialogsprem name={dialogsdata[2].name} id={dialogsdata[2].id}/>
-            <Dialogsprem name={dialogsdata[3].name} id={dialogsdata[3].id}/>
+            {dialogselement}
         </div>
     )
 }
