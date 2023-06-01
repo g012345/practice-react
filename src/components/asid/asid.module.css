@@ -14,3 +14,13 @@
     text-decoration: none;
 }
 
+.frinds{
+    margin-top: 150px;
+}
+.facepng{
+    width: 50px;
+    border-radius: 50%;
+}
+.allface{
+    display: flex;
+}
