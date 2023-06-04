@@ -1,5 +1,5 @@
 import style from './mypost.module.css';
-import Post from '../post/post';
+import Post from '../post';
 import Infopostdata from '../../../../server/data/post/datapost';
 import { Datapostnever } from '../../../../server/data/post/datapost';
 

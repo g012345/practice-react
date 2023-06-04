@@ -1,17 +1,5 @@
 import style from "./post.module.css";
-const Mypost = () =>{
-    let infopostdata = [
-      {message: "hahahahhahahaha",like: "32"}, 
-      {message: "you are sou bad",like: "23"},
-      {message: "hahahahhahahaha",like: "32"}, 
-      {message: "hahahahhahahaha",like: "32"}, ]
-      let postel = infopostdata.map(p => <Post message={p.message} like={p.like}/>)
-      return(
-          <div>
-            {postel}
-          </div>
-      )       
-  }
+
 const Post = (props) =>{
     return(
         <div>
@@ -25,4 +13,4 @@ const Post = (props) =>{
     )
 }
 
-export default {Post , Mypost};
+export default Post 
