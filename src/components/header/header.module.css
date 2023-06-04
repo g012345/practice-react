@@ -1,0 +1,8 @@
+.header{
+    grid-area: h;
+    background-color: green;
+}
+.logot{
+    width: 24px;
+    height: 24px;
+}
