@@ -1,4 +1,3 @@
-import style from './mypost.module.css';
 import { createRef ,Component } from 'react';
 import Post from '../post';
 import Infopostdata from '../../../../server/data/post/datapost';
