@@ -9,6 +9,7 @@ import {Routes , Route } from 'react-router-dom';
 
 const App = () => {
   return (
+    <div className="body">
       <div className="wrapper">
         <Header />
         <Asid />
@@ -20,11 +21,13 @@ const App = () => {
           <Route path="/maloy"Component={Profail}/>
           <Route path="/never"Component={ProfailNever}/>
           <Route path="/xanchick"Component={Profail}/>
-        </Routes> 
+        </Routes>    
         <Costile />
         </div>
       </div>
-    
+    </div>
+      
+
     );
 }
 

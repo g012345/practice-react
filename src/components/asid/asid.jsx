@@ -5,19 +5,19 @@ const Asid = () =>{
     return(
         <asid className={styles.asid}>
           <div className={styles.item}>
-            <NavLink className={styles.white } to='/profail'>pro</NavLink>
+            <NavLink className={styles.white } to='/profail'>profail</NavLink>
           </div>
           <div className={styles.item}>
-            <NavLink className={styles.white} to='/dialogs'>mes</NavLink>
+            <a>news</a>
           </div>
           <div className={styles.item}>
-            <a>new</a>
+            <NavLink className={styles.white} to='/dialogs'>messag</NavLink>
           </div>
           <div className={styles.item}>
-            <a>mus</a>
+            <a>music</a>
           </div>
           <div className={styles.item}>
-            set
+            setings
           </div>
           <div className={styles.frinds}>
               <nav className={styles.item}>how thise pokemon?</nav>

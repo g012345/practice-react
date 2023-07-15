@@ -5,10 +5,14 @@ import { BrowserRouter } from "react-router-dom";
 
 import "./index.css";
 import App from "./App";
-
-ReactDOM.render(
+let rereder = ()=>{
+  ReactDOM.render(
   <BrowserRouter>
     <App />
   </BrowserRouter>,
   document.getElementById("root")
 );
+}
+rereder()
+export default rereder;
+

@@ -9,8 +9,6 @@ const Dialogsprem = (props) =>{
     )
     
 }
-
-
 const dialogsitem = () =>{
   
     let dialogsdata = [

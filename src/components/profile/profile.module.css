@@ -1,8 +1,48 @@
-
+main{
+    color: white;
+}
+.hader_profile{
+    width: 683px;
+}
 .imgbg{
     height: 200px;
+    width: 682px;
+}
+.info{
+    border-radius: 10px;
+    width: 683px;
+    background-color: rgb(48, 48, 48);
+    margin-top: -100px;
+    display: flex;
 }
 .imgdog{
-    width: 20%;
-    height: 20%;
+    border: 3px solid rgb(48, 48, 48);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.name_cite{
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
+.name{
+    font-weight: 700;
+}
+.cite_more_info{
+    margin-top: -20px;
+    display: flex;
+}
+.cite{
+    margin-left: 10px;
+}
+.more_info{
+    margin-left: 20px;
+}
+.post{
+    background-color: rgb(48, 48, 48);
+    width: 683px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 3px solid rgb(48, 48, 48);
+    
 }

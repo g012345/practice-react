@@ -1,6 +1,7 @@
 .header{
+    margin-bottom: 10px;
     grid-area: h;
-    background-color: green;
+    background-color: rgb(48, 48, 48);
 }
 .logot{
     width: 24px;
