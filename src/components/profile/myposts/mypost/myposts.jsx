@@ -17,7 +17,7 @@ const Mypost = () =>{
     return(
         <div>
           <textarea onChange={onPostChange} ref={newPostElemt} value={newPosts.newPostText} />
-          <button onClick={Addpost}>add post</button>
+          <button onClick={Addpost}>add pfost</button>
           {Datapostel}
         </div>
     )       
