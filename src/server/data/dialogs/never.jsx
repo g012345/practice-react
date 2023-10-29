@@ -1,6 +1,6 @@
 let messagedata = [
-    {info: "i am you fan"}, 
-    {info: "bil baza no baza"}, 
-    {info: "i am you hlopceeeee"},]
+    {info: "how are you"}, 
+    {info: "nice,you to?"}, 
+    {info: "yes, i also nice"},]
 
 export default messagedata;

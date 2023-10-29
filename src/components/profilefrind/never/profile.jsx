@@ -9,7 +9,7 @@ const ProfailNever = () =>{
           </div>
           <div>
             <div>
-              <img className={style.imgdog} src='https://cdn.discordapp.com/attachments/996067818669879410/1113548131133558784/image.png' />
+              <img className={style.imgdog} src='https://m.media-amazon.com/images/I/61bueMdnn0L._AC_SX679_.jpg' />
             </div>
             <div>
               <div>
@@ -18,7 +18,7 @@ const ProfailNever = () =>{
               <div>
                 <p>data of berth:02.09.2005 </p>
                 <p>live countre:ARK PVPPISHKA</p>
-                <a href="https://www.youtube.com/@NEVER-ih6im" target='_blank'><img className={style.socialpng} src="https://overclockers.ru/st/legacy/blog/422417/362857_O.jpg"/></a>
+                <a href="https://www.youtube.com/" target='_blank'><img className={style.socialpng} src="https://overclockers.ru/st/legacy/blog/422417/362857_O.jpg"/></a>
               </div>
             </div>
           </div>
